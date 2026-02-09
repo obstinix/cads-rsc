@@ -1,0 +1,140 @@
+======================================================================
+IRIS FLOWER CLASSIFICATION — MODEL EVALUATION REPORT
+Dataset: https://www.kaggle.com/datasets/saurabh00007/iriscsv
+======================================================================
+
+==================================================
+Model: Logistic Regression
+==================================================
+Accuracy:  0.9333
+Precision: 0.9333
+Recall:    0.9333
+F1-Score:  0.9333
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.90      0.90      0.90        10
+ Iris-virginica       0.90      0.90      0.90        10
+
+       accuracy                           0.93        30
+      macro avg       0.93      0.93      0.93        30
+   weighted avg       0.93      0.93      0.93        30
+
+
+==================================================
+Model: K-Nearest Neighbors
+==================================================
+Accuracy:  0.9333
+Precision: 0.9444
+Recall:    0.9333
+F1-Score:  0.9327
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  2  8]]
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.83      1.00      0.91        10
+ Iris-virginica       1.00      0.80      0.89        10
+
+       accuracy                           0.93        30
+      macro avg       0.94      0.93      0.93        30
+   weighted avg       0.94      0.93      0.93        30
+
+
+==================================================
+Model: Support Vector Machine
+==================================================
+Accuracy:  0.9667
+Precision: 0.9697
+Recall:    0.9667
+F1-Score:  0.9666
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  0 10]]
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      0.90      0.95        10
+ Iris-virginica       0.91      1.00      0.95        10
+
+       accuracy                           0.97        30
+      macro avg       0.97      0.97      0.97        30
+   weighted avg       0.97      0.97      0.97        30
+
+
+==================================================
+Model: Decision Tree
+==================================================
+Accuracy:  0.9333
+Precision: 0.9333
+Recall:    0.9333
+F1-Score:  0.9333
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.90      0.90      0.90        10
+ Iris-virginica       0.90      0.90      0.90        10
+
+       accuracy                           0.93        30
+      macro avg       0.93      0.93      0.93        30
+   weighted avg       0.93      0.93      0.93        30
+
+
+==================================================
+Model: Random Forest
+==================================================
+Accuracy:  0.9333
+Precision: 0.9333
+Recall:    0.9333
+F1-Score:  0.9333
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.90      0.90      0.90        10
+ Iris-virginica       0.90      0.90      0.90        10
+
+       accuracy                           0.93        30
+      macro avg       0.93      0.93      0.93        30
+   weighted avg       0.93      0.93      0.93        30
+
+
+======================================================================
+SUMMARY — ALL MODELS
+======================================================================
+Model                              Accuracy  Precision     Recall         F1
+------------------------------------------------------------------------
+Support Vector Machine               0.9667     0.9697     0.9667     0.9666
+Logistic Regression                  0.9333     0.9333     0.9333     0.9333
+K-Nearest Neighbors                  0.9333     0.9444     0.9333     0.9327
+Decision Tree                        0.9333     0.9333     0.9333     0.9333
+Random Forest                        0.9333     0.9333     0.9333     0.9333
