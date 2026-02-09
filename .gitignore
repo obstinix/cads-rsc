@@ -1,0 +1,67 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# ========================
+# OS-specific
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Data files (large datasets)
+# ========================
+# Uncomment these if datasets are too large for GitHub:
+# *.csv
+# *.xlsx
+# *.json
+
+# ========================
+# Model files (large binaries)
+# ========================
+# Uncomment if model files are too large:
+# *.pkl
+# *.joblib
+# *.h5
+
+# ========================
+# Misc
+# ========================
+*.log
+*.tmp
+.env
+.env.local

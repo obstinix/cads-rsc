@@ -1,0 +1,25 @@
+# ===================================
+# CodeAlpha Data Science - Dependencies
+# ===================================
+
+# Core Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Model Persistence
+joblib>=1.3.0
+
+# Jupyter Support
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Utilities
+openpyxl>=3.1.0
