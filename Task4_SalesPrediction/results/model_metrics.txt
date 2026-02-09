@@ -1,0 +1,38 @@
+======================================================================
+SALES PREDICTION -- MODEL EVALUATION REPORT
+Dataset: https://www.kaggle.com/datasets/bumba5341/advertisingcsv
+======================================================================
+
+Model: Linear Regression
+  R2 Score: 0.8994
+  MAE:     1.4616
+  RMSE:    1.7821
+
+Model: Ridge Regression
+  R2 Score: 0.8994
+  MAE:     1.4616
+  RMSE:    1.7821
+
+Model: Lasso Regression
+  R2 Score: 0.8995
+  MAE:     1.4606
+  RMSE:    1.7811
+
+Model: Random Forest
+  R2 Score: 0.9820
+  MAE:     0.6029
+  RMSE:    0.7528
+
+Model: Gradient Boosting
+  R2 Score: 0.9817
+  MAE:     0.6124
+  RMSE:    0.7605
+
+----------------------------------------------------------------------
+Model                              R2      MAE     RMSE
+----------------------------------------------------------------------
+Random Forest                  0.9820   0.6029   0.7528
+Gradient Boosting              0.9817   0.6124   0.7605
+Lasso Regression               0.8995   1.4606   1.7811
+Ridge Regression               0.8994   1.4616   1.7821
+Linear Regression              0.8994   1.4616   1.7821

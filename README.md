@@ -46,10 +46,10 @@ cads-rsc/
 
 | # | Task | Description | Status |
 |---|------|-------------|--------|
-| 1 | **Iris Flower Classification** | Classify iris species using sepal/petal measurements with multiple ML models | 🔲 Not Started |
+| 1 | **Iris Flower Classification** | Classify iris species using sepal/petal measurements with multiple ML models | ✅ Complete — SVM best (96.67%) |
 | 2 | **Unemployment Analysis** | Analyze unemployment trends in India, including Covid-19 impact | 🔲 Not Started |
 | 3 | **Car Price Prediction** | Predict used car prices using regression and feature engineering | 🔲 Not Started |
-| 4 | **Sales Prediction** | Forecast sales from advertising spend across TV, Radio, and Newspaper | 🔲 Not Started |
+| 4 | **Sales Prediction** | Forecast sales from advertising spend across TV, Radio, and Newspaper | ✅ Complete — Random Forest best (R²=0.982) |
 
 ---
 
