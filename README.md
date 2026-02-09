@@ -1,6 +1,6 @@
-# 📊 CADS-RSC — CodeAlpha Data Science Resource
+# 📊 CADS-RSC — Data Science Projects
 
-> **CodeAlpha Data Science Internship** — A collection of data science projects completed as part of the CodeAlpha internship program.
+> A collection of data science projects covering classification, regression, data analysis, and visualization.
 
 ---
 
@@ -83,27 +83,6 @@ cd Task1_IrisClassification
 python src/main.py
 ```
 
----
-
-## 📜 About CodeAlpha
-
-[CodeAlpha](https://www.codealpha.tech/) offers hands-on internship programs in various tech domains including Data Science, Web Development, and more. This repository is part of the **Data Science Internship** track.
-
-### Internship Requirements
-- Complete **2–3 tasks** from the provided list
-- Push all work to a public GitHub repository
-- Share progress on LinkedIn tagging **@CodeAlpha**
-- Submit via CodeAlpha's official submission form
-
----
-
-## 📬 Connect
-
-- **Internship Program:** [CodeAlpha](https://www.codealpha.tech/)
-- **LinkedIn:** [Your LinkedIn Profile]
-
----
-
 ## 📄 License
 
-This project is for educational and internship purposes. Datasets are sourced from [Kaggle](https://www.kaggle.com/) and belong to their respective owners.
+This project is for educational purposes. Datasets are sourced from [Kaggle](https://www.kaggle.com/) and belong to their respective owners.
